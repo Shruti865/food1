@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\vs\nav.css">
+</head>
+<style>
+    ul{
+        display: flex;
+        justify-content: right;
+        margin-left: 30px;
+    }
+    li{
+        list-style: none;
+        margin-left: 30px;
+    }
+    li a{
+text-decoration: none;
+color:darkblue;
+    }
+    li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background-color:rgb(255, 127, 127);
+        margin: auto;
+        display: block;
+    }
+    li a:hover::after{
+        width: 100px;
+        transition: width 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    li a:hover{
+        color: rgb(80, 255, 168);
+    }
+</style>
+<body style="background-color: lemonchiffon;">
+    <nav>
+        <ul>
+            <li>
+                <a href="https://timesofindia.indiatimes.com/city/mumbai">HOME</a>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href=>CONTACT  US</a>
+            </li>
+        </ul>
+    </nav>
+    
+ 
+     
+</body>
+</html>
